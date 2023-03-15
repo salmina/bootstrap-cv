@@ -1,0 +1,259 @@
+#title{
+    background: linear-gradient(180deg, rgba(76,122,172,1) 0%, rgba(90,134,183,1) 50%, rgba(139,178,221,1) 100%);
+}
+h1{
+    font-size:3rem;
+    font-weight: 800;
+    text-align:left;
+    color:aliceblue;
+}
+.section-title{
+    text-align: center;
+    padding:3% 0 3% 0; 
+}
+.school, .company-name{
+    font-size:1.5rem;
+    }
+
+h4{
+    margin:0 auto 4% auto;
+    margin-bottom:5px;
+}
+h5{
+    font-size:1.1rem;
+}
+h6{
+    color:#888888;
+    font-size: 0.8rem;
+}
+span{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:800;
+}
+li{
+    line-height:1.8;
+}
+.navbar{
+    padding:0 0 2rem;
+}
+.container-fluid{
+    padding:2% 15%;
+}
+.navbar-brand{
+    font-family:'Lobster',Arial, Helvetica, sans-serif;
+}
+.nav-item{
+    padding:0;
+}
+.nav-link{
+    font-size:1rem;
+}
+.title-image{
+    position:absolute;
+    z-index: 1;
+}
+.more-button{
+    margin:5% 3% 5% 0;
+}
+#aboutme{
+    background-color: #f8f8f8;
+    position:relative;
+    z-index: -1;
+}
+
+.logo{
+    margin-bottom:5%;
+}
+.edu-box{
+    text-align: center;
+    padding:4.5%;
+}
+.major{
+    color:#888888;
+    margin-bottom:0;
+}
+#working{
+    margin:auto;
+    background-color:#f7f7f7;
+}
+.carousel-item{
+    padding:0 15% 2% 15%;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:3%；
+}
+.company-logo{
+    width:93.8px;
+    border-radius: 10px;
+    margin-bottom:20px;
+}
+.work-title{
+    text-align:left;
+}
+.work-intro{
+    text-align:left;
+}
+.carousel-indicators{
+    margin-top:100px;
+}
+
+/* skills */
+.col-12{
+    margin-top: 15px;
+}
+
+.skill{
+    display:inline-block;
+    margin:0 0 0;
+}
+.container{
+    width: 100%;
+    background-color: #ddd; 
+    padding:0;
+    border-radius: 100px;
+    display:inline-block;
+    margin-left:5px;
+  }
+.colorbar{
+    width: 50%; 
+    background: linear-gradient(90deg, rgba(76,122,172,1) 0%, rgba(90,134,183,1) 50%, rgba(139,178,221,1) 100%);
+    border-radius:100px;
+} 
+.level-photoshop{
+    padding-left:10px;
+    margin:0;
+    color:#fff;
+}
+.level-html{
+    padding-left:10px;
+    margin:0;
+    color:#fff;
+}
+.level-illustrator{
+    padding-left:10px;
+    margin:0;
+    color:#fff;
+}
+.level-css{
+    padding-left:10px;
+    margin:0;
+    color:#fff;
+}
+.level-lightroom{
+    padding-left:10px;
+    margin:0;
+    color:#fff;
+}
+.level-bootstrap{
+    padding-left:10px;
+    margin:0;
+    color:#fff;
+}
+.level-premiere{
+    padding-left:10px;
+    margin:0;
+    color:#fff;
+}
+.level-javascript{
+    padding-left:10px;
+    margin:0;
+    color:#fff;
+}
+.level-aftereffect{
+    padding-left:10px;
+    margin:0;
+    color:#fff;
+}
+.level-axure{
+    padding-left:10px;
+    margin:0;
+    color:#fff;
+}
+.level-photography{
+    padding-left:10px;
+    margin:0;
+    color:#fff;
+}
+.level-mysql{
+    padding-left:10px;
+    margin:0;
+    color:#fff;
+}
+.rounded-start{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+#project{
+    background-color:#f7f7f7;
+}
+.tagline{
+    text-align: center;
+    padding-bottom:2%;
+}
+.card{
+    width:490px;
+    margin:0 1%;
+    padding:0;
+}
+.card-text{
+    font-size: .9rem;
+}
+#hobbies{
+    padding:2% 15%;
+}
+.hobby{
+    align-items: center;
+}
+.hobby-icon{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.hobby-cn{
+    text-align: center;
+    line-height: 1.5;
+    margin:0;
+}
+.hobby-en{
+    text-align: center;
+    color: #888888;
+    line-height:1;
+    margin:0;
+    font-size:0.8rem;
+}
+#footer{
+    text-align: center;
+    background-color: #f9f9f9;
+    color:#888888;
+    font-size:0.8rem;
+}
+.social{
+    margin:10px 10px 40px 10px;
+}
+
+
+
+@media screen and (max-width: 992px){
+    h1{
+        text-align: center;
+    }
+
+    #title{
+        text-align: center;
+}
+    .company-logo{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin:10px auto;
+    }
+    .company-name,.job-title,.duration{
+        text-align: center;
+    }
+
+
+
+}
